@@ -25,3 +25,4 @@ hs_err_pid*
 .demo.iml
 /target/
 /demo.iml
+/.idea/

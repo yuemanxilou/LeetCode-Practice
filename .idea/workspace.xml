@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2802a762-d040-4fe6-be30-a6c51d266cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/DiameterOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/InvertTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/BalancedTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/LowestCommonNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/LowestCommonNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="1957" selection-start-line="1957" selection-end-line="1957" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/str/LengthOfLongestSubString.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/DiameterOfBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -104,8 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="426">
+              <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/InvertTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -177,11 +172,12 @@
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/idea/sort/FindKthElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/str/LengthOfLongestSubString.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode1.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/BalancedTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/DiameterOfBinaryTree.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/InvertTree.java" />
       </list>
     </option>
   </component>
@@ -270,7 +266,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567521198479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567521872137" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -433,7 +429,7 @@
       <workItem from="1566805974670" duration="1182000" />
       <workItem from="1566880988177" duration="238000" />
       <workItem from="1567143038995" duration="5225000" />
-      <workItem from="1567408616807" duration="15833000" />
+      <workItem from="1567408616807" duration="16797000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1566790479739</created>
@@ -505,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567519016122</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="diameterOfBT">
+      <created>1567521226207</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567521226207</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -541,7 +544,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46905000" />
+    <option name="totallyTimeSpent" value="47869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="462" y="27" width="1440" height="873" extended-state="0" />
@@ -663,7 +666,8 @@
     <MESSAGE value="lengthoflongestSubStr" />
     <MESSAGE value="MaxDepth" />
     <MESSAGE value="balanced tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="balanced tree" />
+    <MESSAGE value="diameterOfBT" />
+    <option name="LAST_COMMIT_MESSAGE" value="diameterOfBT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1051,13 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1100,6 +1097,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/InvertTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>

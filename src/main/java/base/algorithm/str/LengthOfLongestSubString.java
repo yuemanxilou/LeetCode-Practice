@@ -1,5 +1,7 @@
 package base.algorithm.str;
 
+import base.algorithm.tree.MaxDepth;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,7 +13,7 @@ public class LengthOfLongestSubString {
     private static Set<Character> CHAR_SET = new HashSet<>();
 
     public static void main(String[] args) {
-        String s = "aa";
+        String s = "au";
 
         int res = solution(s);
 
@@ -50,7 +52,7 @@ public class LengthOfLongestSubString {
         }
 
 
-        return maxLen;
+        return maxLen - CHAR_SET.size() > 0 ? maxLen : CHAR_SET.size();
     }
 
 }

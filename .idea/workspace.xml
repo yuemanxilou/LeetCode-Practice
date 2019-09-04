@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2802a762-d040-4fe6-be30-a6c51d266cda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/HasPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/PathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/base/algorithm/tree/LowestCommonNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/algorithm/tree/LowestCommonNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/base/algorithm/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/algorithm/tree/TreeNode.class" afterDir="false" />
     </list>
@@ -29,11 +30,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/HasPathSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="95" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/PathSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/MergeTrees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="10" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -93,13 +130,14 @@
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode1.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/BalancedTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/DiameterOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/InvertTree.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/MergeTrees.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/str/LengthOfLongestSubString.java" />
         <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/HasPathSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base/algorithm/tree/PathSum.java" />
       </list>
     </option>
   </component>
@@ -188,7 +226,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567583007739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567584604895" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -210,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubString">
+  <component name="RunManager" selected="Application.PathSum">
     <configuration name="FindKthElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.algorithm.idea.sort.FindKthElement" />
       <module name="LeetCode-Practice" />
@@ -237,19 +275,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JudgeHasCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="base.algorithm.idea.twopointers.JudgeHasCycle" />
-      <module name="LeetCode-Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="base.algorithm.idea.twopointers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LengthOfLongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.algorithm.str.LengthOfLongestSubString" />
       <module name="LeetCode-Practice" />
@@ -265,6 +290,19 @@
     </configuration>
     <configuration name="MaxDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.algorithm.tree.MaxDepth" />
+      <module name="LeetCode-Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="base.algorithm.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.algorithm.tree.PathSum" />
       <module name="LeetCode-Practice" />
       <extension name="coverage">
         <pattern>
@@ -325,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSum" />
         <item itemvalue="Application.LengthOfLongestSubString" />
         <item itemvalue="Application.MaxDepth" />
         <item itemvalue="Application.FindKthElement" />
         <item itemvalue="Application.FindLongestWord" />
-        <item itemvalue="Application.JudgeHasCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +389,7 @@
       <workItem from="1566805974670" duration="1182000" />
       <workItem from="1566880988177" duration="238000" />
       <workItem from="1567143038995" duration="5225000" />
-      <workItem from="1567408616807" duration="18574000" />
+      <workItem from="1567408616807" duration="20110000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1566790479739</created>
@@ -451,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567582560543</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="hasPathSum">
+      <created>1567583026567</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567583026567</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -487,13 +532,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49646000" />
+    <option name="totallyTimeSpent" value="51182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49872774" visible="true" weight="0.2067239" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49872774" weight="0.32546496" />
       <window_info id="Structure" order="1" sideWeight="0.50127226" side_tool="true" weight="0.2569956" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,7 +548,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32874617" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3298153" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3298153" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -612,7 +657,8 @@
     <MESSAGE value="diameterOfBT" />
     <MESSAGE value="invertTree" />
     <MESSAGE value="LengthOfLongestSubString" />
-    <option name="LAST_COMMIT_MESSAGE" value="LengthOfLongestSubString" />
+    <MESSAGE value="hasPathSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="hasPathSum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -689,6 +735,18 @@
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/PathSum.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/PathSum.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -732,7 +790,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/PrintStream.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -996,20 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/MergeTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/BalancedTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1041,13 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/str/LengthOfLongestSubString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1074,8 +1110,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/HasPathSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="16" selection-end-column="95" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/MergeTrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/MaxDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="10" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/algorithm/tree/PathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
